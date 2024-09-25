@@ -28,5 +28,5 @@ var bArray = [["John", 23], ["cat", 1]];
 
 var removedBArray = bArray.pop();
 
-//MANIPULATE ARRAYS WITH shift()s
+//MANIPULATE ARRAYS WITH shift()ss
 
