@@ -28,5 +28,26 @@ var bArray = [["John", 23], ["cat", 1]];
 
 var removedBArray = bArray.pop();
 
-//MANIPULATE ARRAYS WITH shift()s
+//MANIPULATE ARRAYS WITH shift()
 
+var cArray = ["Stimpson", "JJ", ["tommy"]];
+var removedC = cArray.shift();
+
+//SETUP EXAMPLE
+
+var dArray = [["Jay", 23], ["Jim", 27]];
+var removedD = dArray.shift();
+
+//MANIPULATE ARRAYS WITH unshift()
+
+var zArray = ['Kim', 'L', 'cat'];
+zArray.shift();
+zArray.unshift('Sad');
+
+//SETUP EXAMPLE
+
+var xArray = [['Kim', 23], ['J', 17]];
+xArray.shift();
+console.log(xArray);
+xArray.unshift(['Ismail', 99]);
+console.log(xArray);
